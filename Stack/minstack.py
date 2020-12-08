@@ -15,7 +15,10 @@ minStack.getMin(); // return -3
 minStack.pop();
 minStack.top();    // return 0
 minStack.getMin(); // return -2
-
+we are mainatining two stacks one is mainstack everytime appending the new data 
+but we compare the data with the min val in minstack and append thr also if its minimum than the last value in minst.
+while poping also we have to compare the latest value from both the stack ; becz we have to remove from minst also as new min will be change if its 
+poped from main stack its also poped from minst.
 
 '''
 
